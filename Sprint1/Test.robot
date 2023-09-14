@@ -1,5 +1,5 @@
 *** Settings ***
-Resource                        ../Resource/common.robot
+Resource                        ../Resources/commom.robot
 Library                         String
 Library                         DataDriver                  reader_class=TestDataApi    name=AccountDetails.xlsx
 Suite Setup                     Setup Browser
